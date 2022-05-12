@@ -1,0 +1,26 @@
+body {  background-image: url("habiba.jpg"); background-repeat:no-repeat; background-size: cover;background-attachment: fixed; 
+  background-position: center; }
+h2 { display: block;  padding: 50px; margin: 70px;text-align:inherit;color: bisque;letter-spacing: 2px ;font-size: 25px ; text-shadow:2px 2px black;}
+div{text-shadow: 2px 2px 4px black; padding-left: 190px;}
+li a:hover {  font-style: italic ; }
+li a { display: block; 
+    color: darkgrey;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left; /* alshan ykunu gmb b3d*/
+    border-right:1px solid white;} /* to make borders between each item in the list*/
+li:last-child { border-right: none ;} /* so the last list will not have a border*/
+ul { list-style-type: none;
+    margin: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    float: left;
+    padding: 20px 100px; margin-left: 350px}
+.logo1 {width: 50px; height: 50px; padding-left: 20px;}
+.logo {color: black}
+.search {display: block;
+  color: black;
+    margin-left: 15px;
+margin-top: 10px;}
